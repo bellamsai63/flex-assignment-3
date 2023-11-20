@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGN-3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parent{
+            height: 60vh;
+            margin: 100px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 18%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 90px -45px black;
+            color: aliceblue;
+            background-color: skyblue;
+        }
+        img{
+            width: 100%;
+            height: 10rem;
+            border-radius: 10px;
+        }
+        .child1{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            text-align: center;
+            background-color: skyblue;
+        }
+        .child2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            background-color: skyblue;
+        }
+        h2{
+            font-weight: bolder;
+            color: black;
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child child1">
+            <img src="./images/qr crop.jpg" alt="">
+        </div>
+        <div class="child child2">
+            <h2>Improve your front-end skills by building projects</h2>
+            <p>Scan the QR code to visit front-end mentor and take your coding skills to the next level</p>
+        </div>
+    </div>
+</body>
+</html>
